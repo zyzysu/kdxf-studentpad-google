@@ -16,7 +16,7 @@
 大概思路参考https://blog.csdn.net/WTBEE/article/details/84571773
 1. Open GAPPS下载Android9 arm64的GMS包
 https://opengapps.org/
-如果你不了解Variant差异的说明可以参考以下链接参考进行下载
+如果你不了解Variant差异的说明可以参考以下链接进行下载
 https://cloud.tencent.com/developer/article/1545499
 2. 下载好相应的包后请解压，其中Core和Optional下是GMS服务的一些核心文件和APK，是我们能否使用GMS服务的基础。GApps路径下是Google的一些原生应用，在GMS服务安装好之后可以根据喜好自行安装
 3. 解压其中tar.lz解压后里面会有路径可以通过路径判断位置主要分为app,priv-app,common;common其实的内容其实是指system目录
@@ -53,7 +53,9 @@ https://opengapps.org/
 
 ### 模块法
 
-1.下载模块
+1.下载[模块](https://litegapps.github.io/download/litegapps/arm64/28/)，如果你不了解Variant差异的说明可以参考此[链接](https://litegapps.github.io/doc/litegapps_variant.html)进行下载
+
+如果不了解直接下此[版本](https://sourceforge.net/projects/litegapps/files/litegapps/arm64/28/user/2024-02-23/MAKSU-LiteGapps-user-arm64-9.0-20240223-official.zip/download)
 
 2.安装并重启
 
